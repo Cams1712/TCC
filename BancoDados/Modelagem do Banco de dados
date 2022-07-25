@@ -1,17 +1,17 @@
 Tem que ter:
 
 Funcionários:
-  Id
-  Foto de perfil
-  Nome
-  CPF
-  RG
-  Endereço principal
-  Senha
-  Ativo
+  Id VARCHAR(10) NOT NULL PRIMARY KEY
+  Foto de perfil BLOB NOT NULL
+  Nome VARCHAR(30) NOT NULL
+  CPF VARCHAR(11) NOT NULL
+  RG VARCHAR(9) NOT NULL
+  Endereço principal VARCHAR(50) NOT NULL
+  Senha VARCHAR(8) NOT NULL
+  Ativo BOOL NOT NULL
   
 Usuario site
-  Login
-  Senha
-  Ativo
-  Permissão
+  email VARCHAR(50) NOT NULL PRIMARY KEY
+  Senha VARCHAR(8) NOT NULL
+  Ativo BOOL NOT NULL
+  Permissão BOOL NOT NULL
