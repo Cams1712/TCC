@@ -1,0 +1,17 @@
+Tem que ter:
+
+Funcionários:
+  Id
+  Foto
+  Nome
+  CPF
+  RG
+  Endereço principal
+  Senha
+  Ativo
+  
+Usuario site
+  Login
+  Senha
+  Ativo
+  Permissão
