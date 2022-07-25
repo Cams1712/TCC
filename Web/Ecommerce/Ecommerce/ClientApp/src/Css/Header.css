@@ -1,0 +1,14 @@
+﻿:root {
+    --Background: indigo;
+    --BoxShadow: 0 8px 32px 0 lightgray;
+    --BackDrop: blur( 13.5px );
+}
+
+.header {
+    height: 90px;
+    background: var(--Background);
+    box-shadow: var(--BoxShadow);
+    backdrop-filter: var(--BackDrop);
+    -webkit-backdrop-filter: var(--BackDrop);
+}
+
