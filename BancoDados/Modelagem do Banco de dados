@@ -2,7 +2,7 @@ Tem que ter:
 
 Funcionários:
   Id VARCHAR(10) NOT NULL PRIMARY KEY
-  Foto de perfil BLOB NOT NULL
+  Foto de perfil LONGBLOB NOT NULL
   Nome VARCHAR(30) NOT NULL
   CPF VARCHAR(11) NOT NULL
   RG VARCHAR(9) NOT NULL
