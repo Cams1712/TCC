@@ -8,7 +8,7 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
     
     - Arduíno
     - Sensores
-        - Inclinação
+        - Acelerôretro
         - Bluetooth BLE
         - Sensor de Corrente
         - Sensor para ativação do Pistão
