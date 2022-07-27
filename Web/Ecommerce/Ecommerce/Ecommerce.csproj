@@ -21,6 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\Components\Background.js" />
+    <None Remove="ClientApp\src\Components\Page1.js" />
+    <None Remove="ClientApp\src\Components\Teste.js" />
+    <None Remove="ClientApp\src\Css\ImagemBackground.css" />
     <None Remove="ClientApp\src\Css\Responsive.css" />
   </ItemGroup>
 

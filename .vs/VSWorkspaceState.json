@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Web"
+    "\\Web",
+    "\\Web\\Ecommerce",
+    "\\Web\\Ecommerce\\Ecommerce",
+    "\\Web\\Ecommerce\\Ecommerce\\ClientApp",
+    "\\Web\\Ecommerce\\Ecommerce\\ClientApp\\public",
+    "\\Web\\Ecommerce\\Ecommerce\\ClientApp\\src",
+    "\\Web\\Ecommerce\\Ecommerce\\ClientApp\\src\\Components"
   ],
-  "SelectedNode": "\\Web",
+  "SelectedNode": "\\Web\\Ecommerce\\Ecommerce.sln",
   "PreviewInSolutionExplorer": false
 }
