@@ -1,0 +1,63 @@
+Tema: Um freio de emergência para caminhões
+
+O que é?
+ 
+Mecanismo do freio:
+
+Ele consiste em um braço mecânico que fica dobrado na maior parte do tempo, na sua ponta ele tem uma curva, para calçar a roda, e na parte de trás dessa peça, tem um cravo, que é um pedaço de metal em um formato pontiagudo que quando colocado sobre pressão infinca no asfalto. 
+
+Exemplo de quando ele está desativado:
+
+[Vide imagem 1]
+
+Exemplo de quando ele está ativado:
+
+[Vide imagem 2]
+
+Como mostra a imagem, o freio calça a roda e com a pressão que o próprio peso do caminhão tem ele permite que esse cravo enfinque no chão impedindo que o caminhão desça de ré e cause acidentes aos carros, motos, pessoas e até mesmo a edifícios que ele colidiria caso não fosse parado.
+
+ 
+      2. Sensores:
+
+Para esse sistema funcionar ele vai precisar de alguns sensores, dentre eles o que serão usados no projeto são:
+
+Acelerômetro: Verificará a inclinação e a velocidade em que o caminhão está se movendo.
+Sensor de corrente: Será usado para verificar a corrente do fio que conecta na luz de ré.
+
+Além disso, precisaremos de um conector de Bluetooth BLE para fazer a conexão com o aplicativo. Esse aplicativo, por sua vez, servirá como uma forma de facilitar para o motorista saber se o freio está ativado ou não e por esse aplicativo ele também poderá ativá-lo ou desativá-lo.
+
+E, como medida de segurança, o motorista também poderá acionar esse freio por meio de 2 botões que serão colocados no painel da cabine do caminhão, um acionará e o outro desativará o freio. 
+
+Todos esses dispositivos serão conectados a um arduino, nele será inserido um programa que analisará os dados enviados dos sensores e acionará o freio quando necessário.
+
+Vale a pena ressaltar que quando a pessoa ativar / desativar o freio de emergência pelo Bluetooth ou pelos botões eles serão ativados / desativados na hora, eles não passarão pelo programa que analisa se o freio deve ser puxado ou não.
+
+
+      3. Formas de ativação:
+
+O freio de emergência será ativado quando:
+
+O sistema receber os dados dos sensores e avaliar que é necessário acionar os freios;
+O arduino receber pelo Bluetooth o comando para acionar o freio;
+O próprio motorista apertar os botões para acionar os freios.
+
+
+Como o site/aplicativo afetará esse projeto?
+
+Site:
+
+O site será a ferramenta que os encarregados poderão adicionar e remover os funcionários que devem ter acesso ao aplicativo. Eles NÃO terão a capacidade de alterar os dados dos funcionários, como o login e a senha.
+
+Além disso, o site será uma forma de informar as pessoas sobre o nosso produto, com uma explicação detalhada sobre o produto e seus componentes. Também contará com um “FAQ” que responderá a algumas perguntas possíveis, “Quem Somos?” que explicará um pouco mais sobre a equipe que produziu o projeto e a página de Login, que permitirá APENAS que pessoas que trabalhem na empresa e possam acessar o sistema que cadastrar novos membros ou os deletar.
+
+Aplicativo:
+
+Já no aplicativo temos uma tela de Login que será preenchida pelo motorista com os dados passados a ele pelo encarregado, depois ele poderá trocar a senha na página do usuário, onde ele terá acesso a seu login e sua senha atual, ao clicar no “Alterar senha” que fica embaixo da senha ele poderá trocar a sua senha por alguma que ele prefira. 
+
+Também neste aplicativo temos a possibilidade de verificar o estado do freio e de ativar/desativar ele. Mas para isso ele terá de ter conexão com o Bluetooth, e deve estar conectado no freio obrigatoriamente. Caso isso não ocorra ele mostrará uma tela que o avisa disso e pede para conectar com o freio pelo Bluetooth.
+
+E por último, mas não menos importante, temos uma página que permite que ele recupere a senha, caso ele tenha se esquecido de qual era e esteja na página de login. Ele fará isso por meio de uma API de e-mail, que enviará uma senha gerada aleatoriamente pelo sistema.
+
+Como o arduino será programado?
+
+Nós usaremos o Arduino IDE
