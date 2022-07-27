@@ -14,6 +14,5 @@ CREATE TABLE funcionarios (
 CREATE TABLE usuario (
 	email VARCHAR(50) NOT NULL,
     	senha VARCHAR(8) NOT NULL,
-    	ativo BOOL NOT NULL,
-    	permissao BOOL NOT NULL
+    	ativo BOOL NOT NULL
 );
