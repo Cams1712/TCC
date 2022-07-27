@@ -1,3 +1,1 @@
 Modelagem do banco de dados:
-
-precisamos 
