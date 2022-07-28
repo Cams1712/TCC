@@ -2,16 +2,19 @@
     margin: 1rem !important;
     width: 500px;
     height: 300px;
-    background-color: red;
+    background-color: lightgray;
     border: none !important;
     position: relative;
+    border-radius: 5px;
 }
 
 .cards-title {
     position: absolute;
+    border-radius: 5px;
     width: 50%;
     height: 40px;
-    background-color: indigo;
+    background-color: #7371FC;
     bottom: -20px;
     left: 20px;
 }
+

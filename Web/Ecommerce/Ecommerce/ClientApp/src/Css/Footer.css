@@ -9,4 +9,43 @@
     --Preto: black;
 }
 
+.footer {
+    height: 70px;
+    background-color: var(--Cinza);
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    padding: 0% 12% !important;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    font-family: var(--QuickSand);
+    font-size: 1.5em;
+}
+
+.footer-logo a {
+    color: var(--Branco);
+
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-links a {
+    color: var(--Branco);
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 

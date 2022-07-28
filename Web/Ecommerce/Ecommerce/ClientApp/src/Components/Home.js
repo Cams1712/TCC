@@ -23,15 +23,11 @@ const Home = () => {
         </div>
 
         <div className='home-card-container row d-flex justify-content-center'>
-            <div className='col-sm-4 col-12  d-flex justify-content-center' style={{ margin: '1em 0px !important' }}>
+            <div className='col-lg-6 col-12  d-flex justify-content-center' style={{ margin: '1em 0px !important' }}>
                 <Card />
             </div>
 
-            <div className='col-sm-4 col-12 d-flex justify-content-center' style={{ margin: '1em 0px !important' }}>
-                <Card />
-            </div>
-
-            <div className='col-sm-4 col-12  d-flex justify-content-center' style={{ margin: '1em 0px !important' }}>
+            <div className='col-lg-6 col-12  d-flex justify-content-center' style={{ margin: '1em 0px !important' }}>
                 <Card />
             </div>
         </div>
