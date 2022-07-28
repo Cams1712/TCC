@@ -1,7 +1,6 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 :root {
     --Branco: white;
     --QuickSand: 'Quicksand', sans-serif;
@@ -42,7 +41,7 @@
 }
 
 .home-text-title {
-    font-family: var(--Quicksand) !important;
+    font-family: var(--QuickSand) !important;
     font-size: 2rem;
     color: var(--Preto);
     text-align: center;
@@ -51,6 +50,7 @@
 .home-text {
     margin-top: .8em !important;
     text-align: center;
+    color: gray;
 }
 
 .home-saiba-mais {
@@ -81,7 +81,7 @@
 
 .home-card-container {
     width: 80%;
-    margin: 1rem auto !important;
+    margin: 1.2rem auto !important;
     display: flex;
     align-items: center;
 }
