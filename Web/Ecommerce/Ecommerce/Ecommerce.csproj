@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <Folder Include="ClientApp\src\Hooks\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
