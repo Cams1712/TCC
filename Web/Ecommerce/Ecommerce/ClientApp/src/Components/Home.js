@@ -26,9 +26,8 @@ const Home = () => {
         </div>
 
         <div className='home-text-container row'>
-            <p className='home-text-title col-sm-12 col-12'>INSERIR TITULO</p>
+            <p className='home-text-title col-sm-12 col-12'>Confiabilidade e Segurança â </p>
             <p className='home-text col-sm-12 col-12'>
-                LOREM IPSUM DOLOR SIT AMET 
             </p>
         </div>
 
@@ -37,7 +36,7 @@ const Home = () => {
                 <Card />
             </div>
 
-            <div className='col-sm-4 col-12  d-flex justify-content-center' style={{ margin: '1em 0px !important' }}>
+            <div className='col-sm-4 col-12 d-flex justify-content-center' style={{ margin: '1em 0px !important' }}>
                 <Card />
             </div>
 
