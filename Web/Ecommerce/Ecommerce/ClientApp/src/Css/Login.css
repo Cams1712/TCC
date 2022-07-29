@@ -1,0 +1,10 @@
+﻿.login-container {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+.bg-container {
+     background: url(../Img/Background-login.jpg);
+     background-position: center;
+     background-size: cover;
+}

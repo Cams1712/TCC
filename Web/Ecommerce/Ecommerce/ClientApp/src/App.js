@@ -6,13 +6,22 @@ import './Css/Global.css'
 import Footer from './Components/Footer'
 import Login from './Components/Login'
 
+let pathname = window.location.pathname
+
+document.addEventListener('click', (e) => {
+    pathname = window.location.pathname
+    console.log(pathname)
+})
+
 const App = () => {
+    const [footer, setFooter] = React.useState(false)
+
     return (
         <div>
             <Header />
             <Route exact path='/' component={Home} />
             <Route path='/login' component={Login} />
-            <Footer />
+            {footer ? ' ': <Footer />}
         </div>
     )
 }

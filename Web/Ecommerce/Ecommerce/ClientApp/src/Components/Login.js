@@ -1,8 +1,13 @@
 ﻿import React from 'react'
 
+import '../Css/Login.css'
+
 const Login = () => {
-    return <div>
-        <p> PÁGINA DE LOGIN </p>
+    return <div className='login-container row'>
+        <div className='bg-container col-sm-12'>
+            
+        </div>
+
     </div>
 }
 
