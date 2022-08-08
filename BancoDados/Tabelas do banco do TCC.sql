@@ -7,6 +7,5 @@ CREATE TABLE funcionarios (
 	email VARCHAR(50) NOT NULL,
     	senha VARCHAR(8) NOT NULL,
 	cpf VARCHAR(11) NOT NULL,
-	endereco_principal VARCHAR(80) NOT NULL,
 	ativo BOOL NOT NULL
 );
