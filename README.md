@@ -29,6 +29,8 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
     
     1. **Modelagem do banco de dados**
     
+    O banco de dados terá uma tabela para funcionários que deve conter o número do funcionário (String) que funcionará como chave primária, uma foto do funcionário (LongBlob), nome, email, senha, CPF e se esse funcionário está ativo (todos são Strings).
+    
     1. **Escolher qual banco de dados será utilizado (relacional ou não-relacional)**
         
         Modelo Relacional 
@@ -82,8 +84,11 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
     
     1. **Calcular quais as despesas para manter o software em funcionamento**
         - Hospedagem da página web
+        - Distribuição da aplicação android
         
     2. **Configurar os computadores para o desenvolvimento (atualizar softwares se preciso)**
+    
+        Não é necessário
     
     1. **No caso do aplicativo Android, verificar se a versão do Android suporta os recursos que desejam implementar**
     
