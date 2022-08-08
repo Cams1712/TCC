@@ -9,3 +9,12 @@ CREATE TABLE funcionarios (
 	cpf VARCHAR(11) NOT NULL,
 	ativo BOOL NOT NULL
 );
+
+CREATE TABLE caminhoes(
+	placa VARCHAR(8) NOT NULL PRIMARY KEY,
+	marca VARCHAR(20) NOT NULL,
+	modelo VARCHAR(20) NOT NULL,
+	ativo BOOL NOT NULL
+);
+
+
