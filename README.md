@@ -41,6 +41,7 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
     1. **Criação de wireframe das telas (tanto web quanto mobile)**
     
         Fizemos no figma.
+        
         Web: https://www.figma.com/file/vprT0jfrCSUaK2e56K68JL/Wireframe---Mobile?node-id=0%3A1
         
         Site: 
