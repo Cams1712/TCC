@@ -57,7 +57,6 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
         
         APIs de envio de e-mail e GPS
         
-    
     1. **Pesquisa se já existem soluções que façam a mesma coisa (caso existam, qual a diferença do seu projeto para o que já existe?)**
         
         Não existem soluções que façam algo parecido com isso.
@@ -65,6 +64,8 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
         Nossos diferenciais são que evitaremos grande parte dos danos materiais para a empresa por conta dos acidentes e possíveis mortes. 
         
     2. **Iniciar a escrita da documentação (objetivos, justificativa, escopo, não escopo e demais itens que já possuírem definição)**
+    
+        Ok
     
     1. **Verificar e estipular prazos para o que será feito em cada Sprint**
         
@@ -97,5 +98,7 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
         Não é necessário
     
     1. **No caso do aplicativo Android, verificar se a versão do Android suporta os recursos que desejam implementar**
+    
+        Usaremos a versão android 7.0.0
     
     1. **~~Criar conta no Git (caso não tenha) e montar o projeto dentro do Git com os membros do grupo~~**
