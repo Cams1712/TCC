@@ -15,9 +15,9 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
     - Dois Botões
         
         
-        Sistema Mobile → Conexão com o Blutetooth para ativar / desativar o pistão. Também vai ter a função de alertar quando o pistão estiver ativado. 
+        Sistema Mobile → Conexão com o Blutetooth para ativar / desativar o pistão. Também vai ter a função de alertar quando o pistão estiver ativado. Além disso temos também a funcionalidade de alterar a senha do login. 
         
-        Sistema Web → Utilizado para divulgar e explicar melhor o sistema utilizado no veículo 
+        Sistema Web → Utilizado para divulgar e explicar melhor o sistema utilizado no veículo, cadastrar e deletar os funcionários que tem acesso ao aplicativo web.
         
     
     Sua finalidade é solucionar o problema de colisão traseira entre um caminhão e os demais veículos em uma subida. 
@@ -29,18 +29,23 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
     
     1. **Modelagem do banco de dados**
     
-    O banco de dados terá uma tabela para funcionários que deve conter o número do funcionário (String) que funcionará como chave primária, uma foto do funcionário (LongBlob), nome, email, senha, CPF e se esse funcionário está ativo (todos são Strings).
+    O banco de dados terá uma tabela para funcionários que deve conter o número do funcionário (String) que funcionará como chave primária, uma foto do funcionário (LongBlob), nome, email, senha, CPF (todos são Strings) e se esse funcionário está ativo (Bool).
     
     1. **Escolher qual banco de dados será utilizado (relacional ou não-relacional)**
         
-        Modelo Relacional 
+        Modelo Relacional (MySQL)
         ****
         
     2. **Modelagem das classes**
     
     1. **Criação de wireframe das telas (tanto web quanto mobile)**
     
+        Fizemos no figma.
+        Web: https://www.figma.com/file/vprT0jfrCSUaK2e56K68JL/Wireframe---Mobile?node-id=0%3A1
+        Site: 
+    
     1. **Levantamento dos softwares necessários para o desenvolvimento**
+    
         - Android Studio (Mobile)
         - Visual Studio (Web)
         - MySQL (Banco de Dados)
@@ -55,16 +60,14 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
         
         Não existem soluções que façam algo parecido com isso.
         
-        Nossos diferenciais são que evitaremos danos materiais para a empresa por conta dos acidentes e possíveis mortes. 
+        Nossos diferenciais são que evitaremos grande parte dos danos materiais para a empresa por conta dos acidentes e possíveis mortes. 
         
     2. **Iniciar a escrita da documentação (objetivos, justificativa, escopo, não escopo e demais itens que já possuírem definição)**
     
     1. **Verificar e estipular prazos para o que será feito em cada Sprint**
         
-        Banco de Dados e Mobile (Primeiro Sprint) 
-        
-        Front-End (Primeiro Sprint) 
-        
+        Banco de Dados, Mobile e Front-End (Primeiro Sprint) 
+                
         Desenvolvimento com Arduíno (Segundo ao Terceiro Sprint) 
         
         Documentação (Segundo ao Quarto Sprint) 
@@ -80,6 +83,7 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
         | Felipe Lira | Desenvolvimento Web Front-End e Documentação |
         | Johnny | Desenvolvimento Mobile e Pitch  |
         | Thiago  | Desenvolvimento Web Back-End e Pitch |
+        
     3. **Verificar e calcular uma projeção de qual o valor que o software poderá ser comercializado/vendido**
     
     1. **Calcular quais as despesas para manter o software em funcionamento**
