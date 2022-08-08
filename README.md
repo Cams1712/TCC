@@ -89,6 +89,8 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
         
     3. **Verificar e calcular uma projeção de qual o valor que o software poderá ser comercializado/vendido**
     
+        Ainda não há uma projeção
+    
     1. **Calcular quais as despesas para manter o software em funcionamento**
         - Hospedagem da página web
         - Distribuição da aplicação android
