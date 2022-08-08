@@ -38,7 +38,22 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
         
     2. **Modelagem das classes**
     
-    A utilização de classes no desenvolvimento web foram fundamentais para o desenvolvimento do mecanismo front-end do site como também back-end. No front-end,             utilizamos a biblioteca "ReactJs", cuja finalidade é manusear o DOM de uma página web mais facilmente bem como torná-lo mais dinâmico e moderno. Cada componente       criado pode ser considerado uma classe que, em seguida é "chamada" no componente "App.js". Já no sistema de back-end do desenvolvimento web, apenas um arquivo         Javacript foi necessário para fazer toda a conexão com o banco de dados MySQL. Para manter a conexão com o banco de dados, utilizamos o Node.js. 
+    A utilização de classes no desenvolvimento web foram fundamentais para o desenvolvimento do mecanismo front-end do site como também back-end. No front-end,             utilizamos a biblioteca "ReactJs", cuja finalidade é manusear o DOM de uma página web mais facilmente bem como torná-lo mais dinâmico e moderno. Cada componente       criado pode ser considerado uma classe que, em seguida é "chamada" no componente "App.js". Classes Utilizadas (componentes):
+    
+    - Home (página inicial do site)
+    - Contato
+    - Login
+    - Register
+    - Empresa
+    - Dúvidas
+    - Header (cabeçalho do site)
+    - Footer (rodapé do site)
+    
+    Já no sistema de back-end do desenvolvimento web, apenas um arquivo Javacript foi necessário para fazer toda a conexão com o banco de dados MySQL. Para                 manter a conexão com o banco de dados, utilizamos o Node.js. Classes utilizadas:
+    
+    - Index (local que armazenou os comandos necessários para o funcionamento do sistema)
+
+    `A MODELAGEM DE CLASSES SERÁ MAIS DETALHADA E COMPLETA NA DOCUMENTAÇÃO (PREVISTA PARA INICIAR A PARTIR DO PRÓXIMO MÊS)`
     
     1. **Criação de wireframe das telas (tanto web quanto mobile)**
         
