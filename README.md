@@ -58,6 +58,7 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
     1. **Criação de wireframe das telas (tanto web quanto mobile)**
         
         Web: https://www.figma.com/file/sAAucc7ndZQmWU7JD3GT0J/WireFrame---Web
+        
         Mobile : https://www.figma.com/file/vprT0jfrCSUaK2e56K68JL/Wireframe---Mobile?node-id=0%3A1
     
     1. **Levantamento dos softwares necessários para o desenvolvimento**
