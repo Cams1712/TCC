@@ -38,6 +38,8 @@ Coloque os arquivos do TCC aqui para facilitar o compartilhamento dos arquivos.
         
     2. **Modelagem das classes**
     
+    A utilização de classes no desenvolvimento web foram fundamentais para o desenvolvimento do mecanismo front-end do site como também back-end. No front-end,             utilizamos a biblioteca "ReactJs", cuja finalidade é manusear o DOM de uma página web mais facilmente bem como torná-lo mais dinâmico e moderno. Cada componente       criado pode ser considerado uma classe que, em seguida é "chamada" no componente "App.js". Já no sistema de back-end do desenvolvimento web, apenas um arquivo         Javacript foi necessário para fazer toda a conexão com o banco de dados MySQL. Para manter a conexão com o banco de dados, utilizamos o Node.js. 
+    
     1. **Criação de wireframe das telas (tanto web quanto mobile)**
         
         Web: https://www.figma.com/file/sAAucc7ndZQmWU7JD3GT0J/WireFrame---Web
