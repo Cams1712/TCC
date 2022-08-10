@@ -3,7 +3,7 @@ Links de explicação:
 Notificações:
   https://douglasgaspar.wordpress.com/2022/07/22/criando-4-modelos-de-notificacao-em-aplicativos-android/
   
-Conectar com Blurtooth e Arduino: (Terminar de ler)
+Conectar com Blurtooth e Arduino:
   https://douglasgaspar.wordpress.com/2022/07/04/conectando-android-via-bluetooth-com-nodemcu-esp8266-e-modulo-hc-06/
   
 Utilização do BroadcastReceiver com Android:
