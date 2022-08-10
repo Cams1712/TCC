@@ -2,7 +2,7 @@ Tema: Um freio de emergência para caminhões (SBrake - Security Brake)
 
 O que é?
  
-Mecanismo do freio:
+      1. Mecanismo do freio:
 
 Ele consiste em um braço mecânico que fica dobrado na maior parte do tempo, na sua ponta ele tem uma curva, para calçar a roda, e na parte de trás dessa peça, tem um cravo, que é um pedaço de metal em um formato pontiagudo que quando colocado sobre pressão infinca no asfalto. 
 
@@ -50,14 +50,20 @@ O site será a ferramenta que os encarregados poderão adicionar e remover os fu
 
 Além disso, o site será uma forma de informar as pessoas sobre o nosso produto, com uma explicação detalhada sobre o produto e seus componentes. Também contará com um “FAQ” que responderá a algumas perguntas possíveis, “Quem Somos?” que explicará um pouco mais sobre a equipe que produziu o projeto e a página de Login, que permitirá APENAS que pessoas que trabalhem na empresa e possam acessar o sistema que cadastrar novos membros ou os deletar.
 
+Também nesse site os encarregados poderão selecionar qual caminhão será alocado para qual motorista. Fazendo com que apenas o motorista tenha acesso a 1 unico freio, aquele que o encarregado o designou. Fora a possibilidade de cadastrar novos caminhões e deletá-los também.
+
 Aplicativo:
 
 Já no aplicativo temos uma tela de Login que será preenchida pelo motorista com os dados passados a ele pelo encarregado, depois ele poderá trocar a senha na página do usuário, onde ele terá acesso a seu login e sua senha atual, ao clicar no “Alterar senha” que fica embaixo da senha ele poderá trocar a sua senha por alguma que ele prefira. 
 
 Também neste aplicativo temos a possibilidade de verificar o estado do freio e de ativar/desativar ele. Mas para isso ele terá de ter conexão com o Bluetooth, e deve estar conectado no freio obrigatoriamente. Caso isso não ocorra ele mostrará uma tela que o avisa disso e pede para conectar com o freio pelo Bluetooth.
 
+Além disso o aplicativo terá a funcionalidade de mandar uma notificação para o celular do motorista para avisar o estado do freio, ela será ativada APENAS quando o freio estiver ativado e quando ele for desativado ele também mandará uma notificação falando que o freio foi desativado. Ao clicar nessa notificação o motorista será direcionado para a página principal do aplicativo, na qual ele poderá desativar/ativar o freio.
+
 E por último, mas não menos importante, temos uma página que permite que ele recupere a senha, caso ele tenha se esquecido de qual era e esteja na página de login. Ele fará isso por meio de uma API de e-mail, que enviará uma senha gerada aleatoriamente pelo sistema.
 
-Como o arduino será programado?
+Como o arduino funcionará no projeto?
 
-Nós usaremos o Arduino IDE
+Nós usaremos o Arduino IDE para fazer a programação. E o arduino servirá para coletar os dados dos sensores e analizar em qual momento ele deve ativar o freio de emergência, isso é, sem intervenção humana. Ele não interfirirá quando o motorista apertar o botão (da cabine) para ativar o freio, esse botão fará com que o freio seja ativado/desativado imdiatamente. 
+
+Com relação ao Bluetooth, o arduino receberá o comando do celular conectado e executará o comando, sem passar pela analize.
