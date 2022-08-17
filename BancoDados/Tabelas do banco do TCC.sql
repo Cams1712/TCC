@@ -16,7 +16,7 @@ CREATE TABLE caminhoes(
 	modelo VARCHAR(20) NOT NULL,
 	piloto VARCHAR(10) NOT NULL,
 	ativo BOOL NOT NULL,
-	FOREIGN KEY (proprietario) REFERENCES funcionarios (num_funcionario)
+	FOREIGN KEY (piloto) REFERENCES funcionarios (num_funcionario)
 );
 
 
