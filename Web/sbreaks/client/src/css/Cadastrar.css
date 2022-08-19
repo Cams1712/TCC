@@ -1,0 +1,116 @@
+.register-container {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0 auto !important;
+    background-color: white;
+    padding-top: 70px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.register-img {
+    height: 100%;
+    background: url(../img/login-register.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.register-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg-form {
+    width: 80%;
+}
+
+.reg-form h2 {
+    font-weight: 700 !important;
+    font-size: 26pt !important;
+}
+
+.reg-inputs {
+    width: 70%;
+    margin: 1rem 0rem !important;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.reg-inputs input {
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    padding-left: 1rem !important;
+    outline: none;
+}
+
+.reg-inputs input:focus {
+    border: 1px solid rgb(221, 221, 221);
+}
+
+#foto {
+    width: 50%;
+    height: 45px;
+    border: 1px solid lightgray;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    gap: 1rem;
+}
+
+#foto:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+input[type=file] {
+    display: none;
+    border-radius: 5px;
+}
+
+#enviar {
+    margin-top: 1rem !important;
+    background-color: black;
+    color: white;
+}
+
+label {
+    font-weight: 700;
+    color: #333;
+}
+
+.reg-cadastrar {
+    color: blue;
+}
+
+.reg-cadastrar:hover {
+    color: blue;
+    opacity: 1;
+    text-decoration: underline !important;
+}
+
+@media screen and (max-width: 768px) {
+    .register-img {
+        display: none;
+    }
+
+    .reg-inputs {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #foto {
+        width: 100% !important;
+    }
+}
