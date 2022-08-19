@@ -1,84 +1,80 @@
-// Seção de imports
 import React, { useRef } from "react";
-import "../css/Cadastrar.css";
-
 import Head from "./Head";
 import Axios from "axios";
-
 import { Link } from "react-router-dom";
 import { Saudacao } from "../class/Saudacao";
 import { AiOutlineCloudUpload } from "react-icons/ai";
-import LocalStorage from "../hooks/LocalStorage";
+import "../css/Cadastrar.css";
+import axios from "axios";
+
+const inputField = [
+  {
+    id: "nome",
+    type: "text",
+    label: "Nome",
+  },
+  {
+    id: "credencial",
+    type: "text",
+    label: "Credencial",
+  },
+  {
+    id: "email",
+    type: "text",
+    label: "Email",
+  },
+  {
+    id: "senha",
+    type: "password",
+    label: "Senha",
+  },
+  {
+    id: "img",
+    type: "file",
+    label: "Selecionar imagem",
+    accept: "image/png,image/jpeg",
+    idLabel: "foto",
+    icon: <AiOutlineCloudUpload size={25} color="gray" />,
+  },
+  {
+    id: "enviar",
+    type: "submit",
+  }
+]
 
 const Cadastrar = () => {
-  const imgFile = useRef();
-
-  const inputField = [
-    {
-      id: "nome",
-      type: "text",
-      label: "Nome",
-    },
-    {
-      id: "email",
-      type: "text",
-      label: "Email",
-      complete: "username",
-    },
-    {
-      id: "senha",
-      type: "password",
-      label: "Senha",
-      complete: "current-password",
-    },
-    {
-      id: "img",
-      type: "file",
-      label: "Selecionar imagem",
-      accept: "image/png,image/jpeg",
-      idLabel: "foto",
-      icon: <AiOutlineCloudUpload size={25} color="gray" />,
-      ref: imgFile,
-    },
-    {
-      id: "enviar",
-      type: "submit",
-    },
-  ];
-
-  const [file, setFile] = React.useState(null)
   const [register, setRegister] = React.useState({
     nome: "",
+    credencial: "",
     email: "",
     senha: "",
     img: "",
     enviar: "Cadastrar",
   });
 
+  const [erro, setErro] = React.useState(null)
+
+  function handleChange({ target }) {
+    const { id, value } = target;
+    setRegister({ ...register, [id]: value });
+  }
+
   function handleSubmit(e) {
-    const { nome, email, senha, img } = register;
     e.preventDefault();
+    const { nome, credencial, email, senha, img } = register;
 
     if (nome && email && senha && img) {
       Axios.post("http://localhost:8080/cadastrar", {
         nome: nome,
+        credencial: credencial,
         email: email,
         senha: senha,
         img: img,
       });
 
-      <LocalStorage key='email' value={email} />
-
     } else {
-      console.log("Erro! preencha os campos corretamente");
+      console.log('ERRO')
     }
-  }
-
-  function handleChange({ target }) {
-    const { id, value } = target;
-    setRegister({ ...register, [id]: value });
-
-    console.log(imgFile.current.files);
   }
 
   return (
@@ -94,7 +90,7 @@ const Cadastrar = () => {
             </div>
             {inputField.map(
               (
-                { id, type, label, idLabel, accept, complete, icon, ref },
+                { id, type, label, idLabel, accept, icon },
                 index
               ) => (
                 <div className="reg-inputs" key={index}>
@@ -107,8 +103,6 @@ const Cadastrar = () => {
                     accept={accept}
                     value={register[id]}
                     onChange={handleChange}
-                    autoComplete={complete}
-                    ref={ref}
                   />
                 </div>
               )
@@ -116,7 +110,7 @@ const Cadastrar = () => {
           </form>
 
           <span>
-            Não possui uma conta?{" "}
+            Não possui uma conta? {" "}
             <Link to="/login" className="reg-cadastrar">
               Fazer login
             </Link>

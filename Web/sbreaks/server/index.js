@@ -1,49 +1,49 @@
 const express = require("express");
 const cors = require("cors");
 const mysql = require("mysql");
+
 const app = express();
 
-const emailRegex =
-  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
-
-// Configurações do banco de dados
-const db = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "1234@abc",
-  database: "testetcc",
-});
+// CONEXÃO COM O BANCO DE DADOS
+const db = mysql.createPool({ host: "ESN509VMYSQL", user: "aluno", password: "Senai1234", database: "sbreaksteste" });
 
 app.use(cors());
 app.use(express.json());
 
-// Fazendo um post nos dados inseridos pelo usuário no forms de cadastro
-app.post("/cadastrar", (req, res) => {
-  const { nome } = req.body;
-  const { email } = req.body;
-  const { senha } = req.body;
-  const { img } = req.body;
+function cadastrarPessoa() {
+  app.post("/cadastrar", (req, res) => {
+    // REQUISIÇÃO DOS DADOS INSERIDOS PELO USUÁRIO NO FORMULÁRIO DE CADASTRO 
+    const { img } = req.body
+    const { credencial } = req.body
+    const { nome } = req.body
+    const { email } = req.body
+    const { senha } = req.body
 
-  let procurar = "SELECT * FROM usuarios WHERE Email = ?";
-  let cadastrar = "INSERT INTO usuarios VALUES (?, ?, ?, ?, ?)";
+    // CADASTRO AUTORIZADO PARA ADMs. LOGO, SEMPRE VAI SER TRUE
+    const adm = true
 
-  db.query(procurar, [email], (error, result) => {
-    if (result.length === 1) {
-      console.log("Email já está em uso");
-    } else {
-      db.query(
-        cadastrar,
-        [nome, email, senha, img, null],
-        (error,
-        (result) => {
-          console.log(error);
-          console.log("Conta criada com sucesso");
-        })
-      );
-    }
+    // VERIFICANDO SE HÁ USUÁRIO CADASTRADO
+    let pesquisar = "SELECT * FROM funcionarios WHERE num_funcionario = ?"
+    db.query(pesquisar, [credencial], (error, result) => {
+      if (result.length === 1) {
+        console.log(error)
+        console.log('Usuário já foi cadastrado')
+      } else {
+        let cadastrar = "INSERT INTO funcionarios VALUES (?, ?, ?, ?, ?, ?, ?)"
+        db.query(cadastrar, [credencial, img, nome, email, senha, adm, false], (error, result => {
+          console.log(error)
+          console.log('Usuário cadastrado com sucesso')
+        }))
+      }
+    })
   });
-});
+}
+
+function listarFuncionarios() {
+
+}
 
 app.listen(8080, () => {
-  console.log("Servidor iniciado");
+  console.log('Servidor Iniciado em http://localhost:8080')
+  cadastrarPessoa()
 });

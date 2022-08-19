@@ -11,3 +11,8 @@ Pendências do Back-end
 1. Salvar e-mail no localStorage (importante) (pendente)
 2. Transformar imagem para base64 (importante) (pendente)
 4. Verificar se o email que está sendo cadastrado já foi utilizado -> FINALIZADO
+
+
+
+const emailRegex =
+  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
