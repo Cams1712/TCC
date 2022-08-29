@@ -2,7 +2,6 @@ Coloque aqui o(s) arquivo(s) da documentação
 
 
 Links para justificativa:
-http://www.tjes.jus.br/empresa-e-condenada-apos-caminhao-nao-conseguir-subir-ladeira-e-bater-em-outro-veiculo/
 
 https://tribunademinas.com.br/noticias/cidade/13-10-2017/caminhao-carregado-de-cimento-desde-de-re-rua-antonio-dias.html
 
