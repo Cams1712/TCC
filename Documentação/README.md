@@ -10,6 +10,9 @@ https://g1.globo.com/sp/sorocaba-jundiai/noticia/2019/10/25/carreta-nao-consegue
 Premissas: 
 
 
+
+Requisitos funcionais:
+
 Android: 
 
 O aplicativo fará o login dos funcionários que foram cadastrados no banco pelo site
