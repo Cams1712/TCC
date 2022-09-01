@@ -9,7 +9,23 @@ https://g1.globo.com/sp/sorocaba-jundiai/noticia/2019/10/25/carreta-nao-consegue
 
 Premissas: 
 
+O projeto será realizado por 5 alunos
 
+O projeto será desenvolvido dentro e fora do ambiente escolar
+
+O projeto será desenvolvido dentro e fora do ambiente escolar
+
+O trabalho será desenvolvido utilizando a metodologia Ágil Scrum
+
+O trabalho será desenvolvido com o visual studio code, Android Studio, Arduino Studio e o Word
+
+As tarefas serão distribuídas e monitoradas por cada integrante, contudo, é de responsabilidade de todos o conhecimento por completo do trabalho
+
+O trabalho será feito nas segundas, terças e sextas, exceto feriados. Também poderão ser realizados em periodos fora do senai quando for necessário
+
+Os arquivos serão mandados para o GitHubao final da  deverá ocorrer ao final de cada ciclo no software GitHub
+
+O projeto deverá ser finalizado, testado e apresentado até dia 02 de dezembro de 2022
 
 Requisitos funcionais:
 
