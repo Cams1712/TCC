@@ -21,7 +21,7 @@ As tarefas serão distribuídas e monitoradas por cada integrante, contudo, é d
 
 O trabalho será feito nas segundas, terças e sextas, exceto feriados. Também poderão ser realizados em periodos fora do senai quando for necessário
 
-Os arquivos serão mandados para o GitHub ao final da  deverá ocorrer ao final de cada ciclo no software GitHub
+Os arquivos serão mandados para o GitHub ao final de cada aula
 
 O projeto deverá ser finalizado, testado e apresentado até dia 02 de dezembro de 2022
 
