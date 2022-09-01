@@ -15,7 +15,7 @@ O projeto será desenvolvido dentro e fora do ambiente escolar
 
 O trabalho será desenvolvido utilizando a metodologia Ágil Scrum
 
-O trabalho será desenvolvido com o visual studio code, Android Studio, Arduino Studio e o Word
+O trabalho será desenvolvido com o visual studio code, Android Studio, Arduino IDE e o Word
 
 As tarefas serão distribuídas e monitoradas por cada integrante, contudo, é de responsabilidade de todos o conhecimento por completo do trabalho
 
@@ -57,3 +57,14 @@ O arduino avaliará se a luz de ré está ativada ou não
 O arduino ativará o freio quando for comandado, ou quando for decidido que é necessário
 
 O arduino ativará o freio quando os botões que estão presentes na cabine forem precionados
+
+
+Restrições:
+
+O aplicativo dever ser desenvolvido para android
+
+O site deve ser editado/desenvolvido usando o nodejs no visual studio code 
+
+Para a desenvoltura do projeto faz-se necessário o uso da internet
+
+O aplicativo precisará de uma verção posterior ou igual ao android 7.0.0
