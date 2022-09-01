@@ -10,6 +10,9 @@ https://g1.globo.com/sp/sorocaba-jundiai/noticia/2019/10/25/carreta-nao-consegue
 Premissas: 
 
 O aplicativo fará o login dos funcionários que foram cadastrados no banco pelo site
+
 O aplicativo permitirá que os funcionários que o acessarem ativem/desativem o freio do caminhão que eles usarão para a viajem
+
 O aplicativo permitirá que caso a senha seja esquecida, ela possa ser recuperada pelo email cadastrado no banco
+
 O aplicativo permitirá que o funcionário possa mudar a senha caso ele deseje fazer isso
