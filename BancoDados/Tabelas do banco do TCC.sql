@@ -15,7 +15,7 @@ CREATE TABLE caminhoes(
 	marca VARCHAR(20) NOT NULL,
 	modelo VARCHAR(20) NOT NULL,
 	bluetooth VARCHAR(20) NOT NULL,
-	piloto VARCHAR(10) NOT NULL,
+	piloto VARCHAR(10),
 	ativo BOOL NOT NULL,
 	FOREIGN KEY (piloto) REFERENCES funcionarios (num_funcionario)
 );
