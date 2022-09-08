@@ -20,4 +20,3 @@ CREATE TABLE caminhoes(
 	FOREIGN KEY (piloto) REFERENCES funcionarios (num_funcionario)
 );
 
-
