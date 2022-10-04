@@ -1,5 +1,6 @@
 - Wireframe na doc (WEB OKAY)
-- Fazer os relatórios de testes
+- Fazer os relatórios de testes (OK)
+- Fazer os relatórios dos resultados dos testes
 - Modelagem do banco de dados 
 - Sprint backlog (OK)
 - Foto do trello - primeira semana (OK)
