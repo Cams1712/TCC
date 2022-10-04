@@ -3,5 +3,5 @@
 - Modelagem do banco de dados 
 - Sprint backlog (OK)
 - Foto do trello - primeira semana (OK)
-- Formatação das tabelas
+- Formatação das tabelas (OK)
 - Modelagem de classes (OK)
