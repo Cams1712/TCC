@@ -1,0 +1,7 @@
+- Wireframe na doc (WEB OKAY)
+- Fazer os relatórios de testes
+- Modelagem do banco de dados 
+- Sprint backlog (OK)
+- Foto do trello - primeira semana (OK)
+- Formatação das tabelas
+- Modelagem de classes (OK)
