@@ -22,3 +22,24 @@ https://www.youtube.com/watch?v=mpkLDnZHwt4
 
 https://www.youtube.com/watch?v=RGTSIN9UW-c
 
+`Johhny - Android`
+- Conexão com o Banco de Dados 
+- Conexão com o Bluetooth
+- API de redefinição de senha
+
+`Camila - Geral`
+- Arduíno 
+- Geral
+
+`Thiago - Web`
+- Site (pós login)
+- Android 
+
+`Felipe Lira - Banco de Dados`
+- Banco de Dados
+
+`Felipe Abreu - Web`
+- Site (até login)
+- Banco de Dados
+- DialogFlow (chatbot)
+- API de E-mail
