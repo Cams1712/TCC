@@ -1,0 +1,20 @@
+.Select  {
+  width: 100%;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: .5rem !important;
+  outline: none !important;
+  font-size: 15px;
+  border: 1px solid #b9b9b9;
+  transition: .2s all;
+  background: var(--secondaryColor);
+}
+
+.Select:focus {
+  box-shadow: 0 0 0 0.15rem #007bffa6;
+  border-color: #007bffa6;
+}
+
+.Label {
+  padding: 0px 0px 7px 0px !important;
+}

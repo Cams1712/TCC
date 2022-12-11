@@ -1,0 +1,29 @@
+.Container {
+  width: 90%;
+  margin: 2rem auto !important;
+}
+
+.Title {
+  font-size: 2rem;
+  padding: 10px 0px !important;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+
+.Duvidas {
+  margin-top: 2rem !important;
+  justify-content: space-between;
+}
+
+.DuvidasTitle {
+  padding-bottom: 20px !important;
+  font-size: 20px;
+  color: gray;
+}
+
+.MaisDuvidas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}

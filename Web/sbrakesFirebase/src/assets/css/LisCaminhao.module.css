@@ -1,0 +1,51 @@
+.Container {
+  padding: 1rem 0 1rem 2rem !important;
+  width: 100%;
+}
+
+.Loading {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10000;
+}
+
+.SearchContainer {
+  position: relative;
+  margin: 10px 0px !important;
+}
+
+.Search {
+  padding-left: 2rem !important;
+  width: 40%;
+  height: 35px;
+  border-radius: 7px;
+  background: #e0e0e057;
+  color: #6e6e6e;
+  font-size: 14px;
+}
+
+.Search:focus {
+  background: #e0e0e08c;
+}
+
+.SearchIcon {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
+.Title {
+  margin: 1rem 0 !important;
+}
+
+.Title p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}

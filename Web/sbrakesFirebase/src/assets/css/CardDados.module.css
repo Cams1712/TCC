@@ -1,0 +1,77 @@
+.Container {
+  width: 100%;
+  margin-top: 1rem !important;
+
+}
+
+.CardContainer {
+  width: 90%;
+  height: 80px;
+  border-radius: 7px;
+  background: #ecececc7;
+  display: flex;
+  align-items: center;
+}
+
+.Dados {
+  text-align: center;
+}
+
+.Dados p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.Foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Foto img {
+  width: 64px;
+  height: 64px;
+  border-radius: 7px;
+}
+
+.ButtonContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  padding-right: 1rem !important;
+}
+
+.Button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.678);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button:hover {
+  background: #ecececc7;
+  cursor: pointer;
+}
+
+.DadosModal {
+  margin-top: 10px !important;
+}
+
+.DadosAl {
+  text-align: center;
+}
+
+.Dados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Funcionarios {
+  font-size: 14px;
+  font-weight: 500;
+}

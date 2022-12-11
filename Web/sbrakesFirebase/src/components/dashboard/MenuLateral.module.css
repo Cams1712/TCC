@@ -1,0 +1,121 @@
+.MenuContainer {
+  position: fixed;
+}
+
+.Menu {
+  position: relative;
+  background: #1c1c1c;
+  height: 100vh;
+  width: 100%;
+}
+
+.Logo {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logo a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px
+}
+
+.Search {
+  width: 90%;
+  margin: 0 auto !important;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Search input {
+  width: 90%;
+  height: 35px;
+  border-radius: 7px;
+  background-color: #333;
+  color: white;
+  padding: 0rem 1rem !important;
+  font-size: 14px;
+  border: none !important;
+}
+
+.Actions,
+.Profile {
+  border-top: 1px solid #333;
+  color: white;
+  padding: 0 15px !important;
+}
+
+.Actions p,
+.Profile p {
+  font-size: 14px;
+  margin-top: 15px !important;
+}
+
+.LinksContainer {
+  margin-top: 1rem !important;
+  display: flex;
+  gap: 1rem;
+}
+
+.Links,
+.LinksSair {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 15px;
+  background-color: #1c1c1c;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Links:hover,
+.LinksSair:hover {
+  background-color: #333;
+}
+
+.Links a,
+.Logout {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-left: 10px !important;
+}
+
+.Logout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  gap: 15px;
+}
+
+.Profile {
+  width: 100%;
+  height: 100px;
+  margin-top: 1rem !important;
+}
+
+.Sair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #333;
+  position: absolute;
+  bottom: 0;
+}
+
+.LinksSair {
+  width: 90%;
+}

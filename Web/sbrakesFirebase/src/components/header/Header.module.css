@@ -1,0 +1,169 @@
+/* Estilos do Menu para Desktop */
+
+.Container {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.Header {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto !important;
+  display: flex;
+  align-items: center;
+}
+
+.Menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.MenuHamburguer {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.Hamburguer {
+  display: block;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: var(--primaryColor);
+  position: relative;
+  transition: .1s all;
+}
+
+.Hamburguer::after,
+.Hamburguer::before {
+  display: block;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: var(--primaryColor);
+  position: absolute;
+}
+
+.Hamburguer::after {
+  bottom: 7px;
+}
+
+.Hamburguer::before {
+  top: 7px;
+}
+
+.Active .Hamburguer {
+  transform: rotate(45deg);
+}
+
+.Active .Hamburguer:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.Active .Hamburguer::after {
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logo a {
+  font-family: var(--fontPoppins);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--primaryColor);
+}
+
+.Login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login a {
+  text-decoration: none;
+  color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 25px !important;
+  border: 1px solid var(--primaryColor);
+  transition: .2s all;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+
+.Login a:hover {
+  background: var(--primaryColor);
+  color: var(--secondaryColor);
+}
+
+.MenuResponsivo {
+  width: 300px;
+  height: calc(100vh - 75px) !important;
+  position: absolute;
+  z-index: 1000000;
+  top: 75px;
+  left: -300px;
+  background: var(--secondaryColor);
+  transition: .5s all ease-in-out;
+}
+
+.Active {
+  transform: rotateX(300px);
+  left: 0;
+}
+
+.Disabled {
+  transform: rotate(-300px);
+  left: -300px;
+}
+
+.Opacity {
+  width: 100vw;
+  height: calc(100vh - 75px);
+  background: var(--primaryColor);
+  opacity: .6;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  z-index: 100;
+}
+
+.ResponsiveLinksContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 1rem .5rem 0rem .5rem !important;
+  padding: 0 10px !important;
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+.ResponsiveLinksContainer:hover {
+  background: #F1F1F1;
+  color: initial;
+  border-radius: 5px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 740px) {
+  .Login {
+    display: none;
+  }
+}
