@@ -1,10 +1,7 @@
-Coloque aqui os arquivos do Pitch
-
 Vídeos para a apresentação:
 
 Melhor até agr: 
 https://www.youtube.com/watch?v=f6JnskdVuyQ
-
 
 https://www.youtube.com/watch?v=GU4crdQUhZI
 
@@ -23,9 +20,8 @@ https://www.youtube.com/watch?v=mpkLDnZHwt4
 https://www.youtube.com/watch?v=RGTSIN9UW-c
 
 `Johhny - Android`
-- Conexão com o Banco de Dados 
+- Conexão com o Banco de Dados Firebase
 - Conexão com o Bluetooth
-- API de redefinição de senha
 
 `Camila - Geral`
 - Arduíno 
@@ -36,10 +32,10 @@ https://www.youtube.com/watch?v=RGTSIN9UW-c
 - Android 
 
 `Felipe Lira - Banco de Dados`
-- Banco de Dados
+- Banco de Dados Firebase
 
 `Felipe Abreu - Web`
-- Site (até login)
-- Banco de Dados
+- Site (login e pós login)
+- Banco de Dados Firebase 
 - DialogFlow (chatbot)
-- API de E-mail
+- API de E-mail (EmailJs)
