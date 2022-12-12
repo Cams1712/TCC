@@ -47,6 +47,14 @@ const db = mysql.createPool({
   database: "testetcc",
 });
 
+// Conexão com banco de dados SENAI
+const dbSenai = mysql.createPool({
+  host: 'ESN509VMYSQL',
+  user: 'Aluno',
+  password: "Senai1234",
+  database: 'sbrakes'
+})
+
 app.use(cors());
 app.use(express.json({ limit: "50mb" }));
 
