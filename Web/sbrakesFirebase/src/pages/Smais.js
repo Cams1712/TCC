@@ -8,7 +8,7 @@ export default function Smais() {
 
   React.useEffect(() => {
     setDisplay(false);
-  }, []);
+  }, [setDisplay]);
 
   return (
     <div className={Ss.Container}>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import { CadastrarProvider } from './hooks/useCadastrarContext';
 import { ComponentProvider } from './hooks/useComponentContext';

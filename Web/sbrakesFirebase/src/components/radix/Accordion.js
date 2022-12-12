@@ -41,18 +41,6 @@ const AccordionTrigger = React.forwardRef(
       </Accordion.Trigger>
     </Accordion.Header>
   ),
-);
-
-const AccordionContent = React.forwardRef(
-  ({ children, className, ...props }, forwardedRef) => (
-    <Accordion.Content
-      className={classNames('AccordionContent', className)}
-      {...props}
-      ref={forwardedRef}
-    >
-      <div className="AccordionContentText">{children}</div>
-    </Accordion.Content>
-  ),
-);
+)
 
 export default AccordionComponent;

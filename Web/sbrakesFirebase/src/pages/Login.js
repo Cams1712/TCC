@@ -32,7 +32,7 @@ export default function Login() {
 
   React.useEffect(() => {
     setDisplay(true);
-  }, []);
+  }, [setDisplay]);
 
   function handleChange({ target }) {
     const { id, value } = target;

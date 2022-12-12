@@ -7,7 +7,7 @@ export default function NotFound() {
 
   React.useEffect(() => {
     setDisplay(true);
-  }, []);
+  }, [setDisplay]);
 
   return (
     <div>

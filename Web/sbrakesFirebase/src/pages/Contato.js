@@ -8,7 +8,7 @@ const Contato = () => {
 
   React.useEffect(() => {
     setDisplay(false);
-  }, []);
+  }, [setDisplay]);
 
   return (
     <div className={SContato.Container}>

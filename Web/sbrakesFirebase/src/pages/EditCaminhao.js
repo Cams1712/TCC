@@ -78,7 +78,7 @@ export default function EditCaminhao() {
     }
 
     fetchData();
-  }, []);
+  }, [id]);
 
   function handleChange({ target }) {
     const { value, id } = target;

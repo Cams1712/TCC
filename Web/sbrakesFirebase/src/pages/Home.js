@@ -24,7 +24,7 @@ export default function Home() {
 
   React.useEffect(() => {
     setDisplay(false);
-  }, []);
+  }, [setDisplay]);
 
   return (
     <div className={Hos.Container}>

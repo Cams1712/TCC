@@ -79,7 +79,7 @@ export default function Duvidas() {
 
   React.useEffect(() => {
     setDisplay(false);
-  }, []);
+  }, [setDisplay]);
 
   return (
     <div className={Ds.Container}>
