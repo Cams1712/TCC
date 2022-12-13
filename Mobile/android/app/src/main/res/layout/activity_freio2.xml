@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FreioActivity">
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/roboto_bold"
+      android:text="Status do Freio"
+      android:textColor="@color/BlackStatus"
+      android:textSize="30sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.117" />
+
+  <androidx.appcompat.widget.SwitchCompat
+      android:id="@+id/swLigaDesliga"
+      android:layout_width="52dp"
+      android:layout_height="48dp"
+      android:layout_marginTop="340dp"
+      android:scaleX="4"
+      android:scaleY="4"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.537"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/tvDesligado"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="84dp"
+      android:fontFamily="@font/poppins"
+      android:text="@string/txtDesligado"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toStartOf="@+id/swLigaDesliga"
+      app:layout_constraintTop_toTopOf="@+id/swLigaDesliga" />
+
+  <TextView
+      android:id="@+id/tvLigado"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="76dp"
+      android:layout_marginTop="356dp"
+      android:fontFamily="@font/poppins"
+      android:text="@string/txtLigado"
+      android:textSize="18sp"
+      app:layout_constraintStart_toEndOf="@+id/swLigaDesliga"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/tvStatus"
+      android:layout_width="125dp"
+      android:layout_height="31dp"
+      android:fontFamily="@font/poppins"
+      android:text="Desconectado"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.107"
+      app:layout_constraintStart_toEndOf="@+id/textView12"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.297" />
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/poppins"
+      android:text="O freio está:"
+      android:textColor="@color/BlackStatus"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.312"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.295" />
+
+  <Button
+      android:id="@+id/btConectar"
+      android:layout_width="316dp"
+      android:layout_height="48dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="76dp"
+      android:layout_marginEnd="16dp"
+      android:text="@string/btConectar"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.492"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/swLigaDesliga" />
+
+  <TextView
+      android:id="@+id/txtTrocarSenha"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:fontFamily="@font/poppins"
+      android:text="Gostaria de Tocar a senha?"
+      android:textColor="@color/BlackStatus"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btConectar"
+      app:layout_constraintVertical_bias="0.2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

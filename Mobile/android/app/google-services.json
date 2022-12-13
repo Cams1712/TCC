@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "396203126346",
+    "project_id": "sbrakes-a01f3",
+    "storage_bucket": "sbrakes-a01f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396203126346:android:934ab513771aec72efc0b3",
+        "android_client_info": {
+          "package_name": "com.example.sbrakes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396203126346-ai73113hb8opu3c3ndn35jompf2qitpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3urOSjRUddKL-Dmi2VmkMht2FNsCaChs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396203126346-ai73113hb8opu3c3ndn35jompf2qitpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

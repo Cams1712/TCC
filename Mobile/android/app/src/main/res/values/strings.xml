@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">sbrakes</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="controle_do_sistema_de_freio_do_seu_ve_culo">Controle do sistema de freio do seu veículo</string>
+    <string name="sbrakes">SBRAKES</string>
+    <string name="sua_seguran_a_em_boas_m_os">Sua segurança em boas mãos</string>
+    <string name="entrar">Entrar</string>
+
+    <!--Freio Acitiviy2-->
+    <string name="txtConectado">Dispositivo conectado</string>
+    <string name="txtDesconectado">Não foi possível conectar</string>
+    <string name="txtLigado">Ligado</string>
+    <string name="txtDesligado">Desligado</string>
+    <string name="btConectar">Conectar</string>
+    <string name="erroSemBluetooth">Seu dispositivo não tem Bluetooth</string>
+
+
+    <string name="title_activity_freio2">Status do Freio</string>
+    <string name="title_activity_trocarsenha">Redefinição de senha</string>
+    <string name="title_activity_password">Esqueceu a senha</string>
+    <string name="title_activity_freio">fale bem</string>
+    <string name="title_home">Conexão com o arduino</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Redefinição</string>
+</resources>
